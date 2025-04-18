@@ -11,7 +11,7 @@ function encrypt(text) {
   const cipher = crypto.createCipheriv(algorithm, secretKey, iv);
   let encrypted = cipher.update(text, 'utf8', 'base64');
   encrypted += cipher.final('base64');
-  return encodeURIComponent(encrypted);  // Make it URL-safe!
+  return encodeURIComponent(encrypted); 
 }
 
 function decrypt(encryptedText) {
@@ -30,7 +30,6 @@ const decryptedData = decrypt(encryptedData);
 console.log("Encrypted Example:", encryptedData);
 console.log("Decrypted Example:", decryptedData);
 
-// Create an Express application
 const app = express();
 
 app.use((req, res, next) => {
