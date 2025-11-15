@@ -1,42 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<title>Encrypted Endpoint Demo - README</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        padding: 30px;
-        max-width: 900px;
-        margin: auto;
-        line-height: 1.6;
-        color: #222;
-    }
-    h1, h2, h3 {
-        color: #333;
-    }
-    code {
-        background: #f4f4f4;
-        padding: 3px 6px;
-        border-radius: 4px;
-    }
-    pre {
-        background: #f4f4f4;
-        padding: 10px;
-        border-radius: 6px;
-        overflow-x: auto;
-    }
-    .box {
-        background: #eef6ff;
-        padding: 15px;
-        border-left: 4px solid #3b82f6;
-        border-radius: 4px;
-        margin: 20px 0;
-    }
-</style>
-</head>
-<body>
 
 <h1>🔐 Encrypted Endpoint Demo (AES-256-CBC + Express)</h1>
 
